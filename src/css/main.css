@@ -102,3 +102,49 @@ width: 266px;
     order: 3;
  }
 }
+/* Energy System */
+.energy-section{
+    background-image: url("/img/energy/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    mix-blend-mode: screen;
+height: 550px;
+}
+.energy-arrow{
+    display: none;
+}
+.energy-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.energy-item{
+    display: flex;
+    gap: 6px;
+}
+.energy-item-text{
+border: 1px solid #5ee6a8;
+    padding: 16px 22px;
+    width: 211px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+ .energy-arrow{
+    display: block;
+ }
+ .energy-section{
+    background-image: url("/img/energy/desk.png");
+    height: 600px;
+ }
+ .energy-wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 42px;
+ }
+}
