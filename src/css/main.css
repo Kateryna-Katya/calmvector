@@ -56,3 +56,49 @@
     margin-right: 0;
 }
 }
+/* Core Mechanics */
+.core-img{
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+.core-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 18px;
+}
+.core-item{
+    display: flex;
+    align-items: start;
+    gap: 4px;
+}
+.core-item p{
+width: 266px;
+}
+.core-list-two{
+    margin-top: 18px;
+}
+@media only screen and (min-width: 1440px) {
+ .core-wrapper{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+ }
+ .core-img{
+    order: 2;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 414px;
+        height: 339px;
+ }
+ .core-list{
+    order: 1;
+ }
+ .core-list-two{
+    margin-top: 0;
+    order: 3;
+ }
+}
