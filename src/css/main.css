@@ -283,3 +283,34 @@ width: 413px;
     width: 380px;
   }
 }
+/* Visual Identity */
+.visual-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.visual-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+ .visual-wrapper{
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 112px;
+ }
+ .visual-text-wrapper{
+    width: 522px;
+    gap: 22px;
+    align-items: start;
+    font-family: "Sora", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        color: #b3bbcb;
+ }
+}
