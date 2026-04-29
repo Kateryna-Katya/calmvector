@@ -148,3 +148,92 @@ border: 1px solid #5ee6a8;
     gap: 42px;
  }
 }
+/* Progression */
+.progression-container{
+    background-image: url("/img/progression/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+}
+.progression-wrapper{
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.progression-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+width: 165px;
+}
+.p1{
+    margin-left: auto;
+    margin-right: 0;
+}
+.progression-item-title{
+    font-family: "Sora", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        color: #5ee6a8;
+}
+.p2{
+    margin-top: 67px;
+}
+.p3{
+    margin-top: 78px;
+    margin-left: auto;
+        margin-right: 0;
+}
+.p4{
+    margin-top: 47px;
+    width: 145px;
+}
+.p5{
+    margin-top: 97px;
+    margin-left: auto;
+        margin-right: 0;
+}
+@media only screen and (min-width: 1440px) {
+.progression-container {
+        background-image: url("/img/progression/desk.png");
+background-position: bottom 80px center;
+background-size: 891px 472px;
+}
+.progression-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+position: relative;
+width: 891px;
+    height: 472px;
+}
+.progression-item{
+    width: 210px;
+    position: absolute;
+    align-items: start;
+}
+.p1{
+right: 70px;
+top: 30px;
+}
+.p2{
+    bottom: 116px;
+    right: 131px;
+}
+.p3{
+right: 340px;
+    top: 100px;
+}
+.p4{
+    bottom: 0;
+        left: 210px;
+}
+.p5{
+    bottom:60px;
+        left: -30px;
+}
+}
